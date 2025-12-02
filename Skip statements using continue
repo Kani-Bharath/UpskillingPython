@@ -1,0 +1,11 @@
+items = ["Brocolli - Food", "Pen - Stationary", "Pasta - Food", "Book - Stationery", "Soap - Cleaning", "Football - Sport", "Salad - Food"]
+final_list = []
+
+# Add all items to final_list except sport items
+for item in items:
+  if "Sport" in item:
+    continue
+ 
+  final_list.append(item)
+
+print(final_list)
