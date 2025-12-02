@@ -1,0 +1,14 @@
+countries = ["India", "China", "Japan", "England", "France"]
+capitals = ["New Delhi", "Beijing", "Tokyo", "London", "Paris"]
+
+for country, capital in zip(countries, capitals):
+  print(f"The capital of {country} is {capital}")
+
+# Print a line for each pair as `The opposite of *word* is *opposite_word*.`
+# Use the zip function
+
+words = ["love", "beautiful", "borrow", "laugh"]
+opposite_words = ["hate", "ugly", "lend", "cry"]
+
+for word,oppo in zip(words, opposite_words):
+  print(f"The opposite of {word} is {oppo}")
