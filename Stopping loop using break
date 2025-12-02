@@ -1,0 +1,8 @@
+# break the loop after house_number 105
+house_numbers = [101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+for housenum in house_numbers :
+  if housenum >=106:
+    print("All newspapers delivered.")
+    break
+  else:
+    print (f"Delivered to {housenum}")
