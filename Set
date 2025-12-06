@@ -1,0 +1,5 @@
+non_unique_list = ["Andria", "Amanda", "Andria", "Samantha", "Amanda"]
+print(non_unique_list)
+
+unique_set = set(non_unique_list)
+print(unique_set)
