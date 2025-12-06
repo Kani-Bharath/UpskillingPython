@@ -1,0 +1,16 @@
+teams = [
+  ["Sharukh", "Aamir", "Salman"],
+  ["Akshay", "Ajay", "Sunil"],
+  ["Katrina", "Bobby", "Amitabh"]
+]
+
+i = 1
+
+for team in teams: # outer loop
+  print(f"Team {i} consists of: ", end="")
+
+  for member in team: # inner loop
+    print(member, end=", ")
+
+  i += 1
+  print() # new line
