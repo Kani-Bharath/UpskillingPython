@@ -1,0 +1,8 @@
+# Print a line for each pair as `The opposite of *word* is *opposite_word*.`
+# Use the zip function
+
+words = ["love", "beautiful", "borrow", "laugh"]
+opposite_words = ["hate", "ugly", "lend", "cry"]
+
+for word,oppo in zip(words, opposite_words):
+  print(f"The opposite of {word} is {oppo}")
