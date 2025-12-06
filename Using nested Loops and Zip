@@ -1,0 +1,16 @@
+# Print each movie collection along with the price in the format given above.
+# Use zip and nested loops
+
+collections = [
+  ["The Avengers", "Iron Man", "Thor"],
+  ["Justice League", "Man of Steel", "The Dark Knight"],
+  ["Titanic", "Avatar", "Spiderman"],
+]
+
+prices = [2490, 3120, 1999]
+
+for collection,price in zip(collections,prices) :
+  print(f"Collection |  ₹{price}")
+  for movie in collection:
+    print(movie)
+  print()
