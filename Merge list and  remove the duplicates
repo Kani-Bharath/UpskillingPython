@@ -1,0 +1,18 @@
+# Merge emilys_list into mikas_list and convert the combined list into a set
+# Print the sorted list from the set.
+mikas_list = [
+  "Sim Park",
+  "Golden Amusement Mall",
+  "Red Garden"
+]
+
+emilys_list = [
+  "Sim Park",
+  "Wildlife Safari Zoo",
+  "Red Garden"
+]
+
+ 
+new_list = mikas_list + emilys_list
+
+print(sorted(set(new_list)))
